@@ -27,7 +27,7 @@ public class EdgeDetection : MonoBehaviour
 
     public void detect ()
     {
-        Color c, gx, gy;
+        Color gx, gy;
         for (int i = 0; i < sourceTexture.width; i++)
         {
             for (int j = 0; j < sourceTexture.height; j++)
